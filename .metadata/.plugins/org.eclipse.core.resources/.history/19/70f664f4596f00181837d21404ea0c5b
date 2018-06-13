@@ -57,6 +57,5 @@ class Pruebas {
 	@Test
 	public void pruebaRepartidor() throws Exception{
 		Repartidor shuffler = new Repartidor();
-		assertTrue(shuffler.isCompleted());
 	}
 }
