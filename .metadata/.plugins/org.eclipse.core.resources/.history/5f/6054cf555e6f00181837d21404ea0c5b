@@ -10,7 +10,7 @@ public class Mesa {
 		players = new ArrayList<Jugador>();
 		dealer = new Repartidor();
 	}
-	public void agregarJugador(String nombre) throws Exception {
+	public void addPlayer(String nombre) throws Exception {
 		if(players.size()>=4) {
 			throw new Exception("To many players");
 		}

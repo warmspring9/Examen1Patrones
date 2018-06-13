@@ -74,17 +74,17 @@ class Pruebas {
 	@Test
 	public void pruebaMesa() throws Exception {
 		Mesa table = new Mesa();
-		table.agregarJugador("Juanito");
+		table.addPlayer("Juanito");
 	}
 	@Test
 	public void pruebaMesaExcepcion() throws Exception {
 		Mesa table = new Mesa();
-		table.agregarJugador("Pepito");
-		table.agregarJugador("Chanchito");
-		table.agregarJugador("Chinito");
-		table.agregarJugador("Juanito");
+		table.addPlayer("Pepito");
+		table.addPlayer("Chanchito");
+		table.addPlayer("Chinito");
+		table.addPlayer("Juanito");
 		try {
-			table.agregarJugador("Te tienes que caer");
+			table.addPlayer("Te tienes que caer");
 	        assert false;
 	    } catch (Exception e) {
 	        assert true;
