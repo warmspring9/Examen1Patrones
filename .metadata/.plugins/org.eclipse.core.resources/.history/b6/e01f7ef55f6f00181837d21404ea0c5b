@@ -44,18 +44,7 @@ public class Naipe {
 	public void shuffle() {
 		Collections.shuffle(baraja);
 	}
-	public int size() {
-		return baraja.size();
-	}
 	public boolean isCompleted() {
 		return baraja.size()==52;
-	}
-
-	
-	public Carta deal() throws Exception {
-		if(baraja.size()==0) {
-			throw new Exception("No cards to deal");
-		}
-		return baraja.remove(0);
 	}
 }

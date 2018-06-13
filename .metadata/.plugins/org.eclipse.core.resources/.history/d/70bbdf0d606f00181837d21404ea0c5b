@@ -3,6 +3,7 @@ package Code.test;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 
 import Code.Carta;
@@ -14,6 +15,9 @@ import Code.Repartidor;
 class Pruebas {
 	static Carta card;
 	
+	@BeforeClass
+	public static void init() throws Exception {
+	}
 	@Test
 	public void pruebaCreacion() throws Exception {
 		card = new Carta("Ka","Escudos",10);
@@ -81,27 +85,6 @@ class Pruebas {
 		table.agregarJugador("Juanito");
 		try {
 			table.agregarJugador("Te tienes que caer");
-	        assert false;
-	    } catch (Exception e) {
-	        assert true;
-	    }
-	}
-	@Test
-	public void pruebaRepartirCarta() throws Exception {
-		Repartidor dealer = new Repartidor();
-		Jugador player = new Jugador("Juanito");
-		dealer.DarCarta(player);
-		assertEquals(1,player.size());
-		assertEquals(51,dealer.size());
-	}
-	@Test
-	public void pruebaExcepcionRepartirCarta() throws Exception {
-		Repartidor dealer = new Repartidor();
-		Jugador player = new Jugador("Juanito"); 
-		try {
-			for(int i=0;i<53;i++) {
-				dealer.DarCarta(player);
-			}
 	        assert false;
 	    } catch (Exception e) {
 	        assert true;

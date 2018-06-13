@@ -11,12 +11,4 @@ public class Repartidor {
 	public boolean isCompleted() {
 		return baraja.isCompleted();
 	}
-	public int size() {
-		return baraja.size();
-	}
-	public void DarCarta(Jugador player) throws Exception {
-		Carta card = baraja.deal();
-		player.addCarta(card);
-		
-	}
 }

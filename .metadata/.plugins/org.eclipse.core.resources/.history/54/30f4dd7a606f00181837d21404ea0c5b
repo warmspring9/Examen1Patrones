@@ -52,10 +52,7 @@ public class Naipe {
 	}
 
 	
-	public Carta deal() throws Exception {
-		if(baraja.size()==0) {
-			throw new Exception("No cards to deal");
-		}
+	public Carta deal() {
 		return baraja.remove(0);
 	}
 }

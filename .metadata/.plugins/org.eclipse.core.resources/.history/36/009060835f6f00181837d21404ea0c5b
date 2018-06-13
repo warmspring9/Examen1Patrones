@@ -13,7 +13,4 @@ public class Jugador {
 	public void addCarta(Carta card) {
 		mano.add(card);
 	}
-	public int size() {
-		return mano.size();
-	}
 }

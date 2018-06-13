@@ -14,9 +14,4 @@ public class Repartidor {
 	public int size() {
 		return baraja.size();
 	}
-	public void DarCarta(Jugador player) throws Exception {
-		Carta card = baraja.deal();
-		player.addCarta(card);
-		
-	}
 }

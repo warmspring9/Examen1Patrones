@@ -3,6 +3,7 @@ package Code.test;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 
 import Code.Carta;
@@ -93,18 +94,5 @@ class Pruebas {
 		dealer.DarCarta(player);
 		assertEquals(1,player.size());
 		assertEquals(51,dealer.size());
-	}
-	@Test
-	public void pruebaExcepcionRepartirCarta() throws Exception {
-		Repartidor dealer = new Repartidor();
-		Jugador player = new Jugador("Juanito"); 
-		try {
-			for(int i=0;i<53;i++) {
-				dealer.DarCarta(player);
-			}
-	        assert false;
-	    } catch (Exception e) {
-	        assert true;
-	    }
 	}
 }
