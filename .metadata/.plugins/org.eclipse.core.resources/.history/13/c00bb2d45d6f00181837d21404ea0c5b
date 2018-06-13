@@ -72,12 +72,12 @@ class Pruebas {
 		player.addCarta(new Carta("As","Flores",1));
 	}
 	@Test
-	public void pruebaMesa() throws Exception {
+	public void pruebaMesa() {
 		Mesa table = new Mesa();
 		table.addPlayer("Juanito");
 	}
 	@Test
-	public void pruebaMesaExcepcion() throws Exception {
+	public void pruebaMesaExcepcion() {
 		Mesa table = new Mesa();
 		table.addPlayer("Pepito");
 		table.addPlayer("Chanchito");

@@ -81,8 +81,6 @@ class Pruebas {
 		Mesa table = new Mesa();
 		table.addPlayer("Pepito");
 		table.addPlayer("Chanchito");
-		table.addPlayer("Chinito");
-		table.addPlayer("Juanito");
 		try {
 			table.addPlayer("Te tienes que caer");
 	        assert false;

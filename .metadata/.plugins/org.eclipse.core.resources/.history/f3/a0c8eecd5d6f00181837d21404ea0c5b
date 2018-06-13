@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 
 import Code.Carta;
 import Code.Jugador;
-import Code.Mesa;
 import Code.Naipe;
 import Code.Repartidor;
 
@@ -70,24 +69,5 @@ class Pruebas {
 		player.addCarta(new Carta("Diez","Escudos",10));
 		player.addCarta(new Carta("Quina","Gotas",10));
 		player.addCarta(new Carta("As","Flores",1));
-	}
-	@Test
-	public void pruebaMesa() throws Exception {
-		Mesa table = new Mesa();
-		table.addPlayer("Juanito");
-	}
-	@Test
-	public void pruebaMesaExcepcion() throws Exception {
-		Mesa table = new Mesa();
-		table.addPlayer("Pepito");
-		table.addPlayer("Chanchito");
-		table.addPlayer("Chinito");
-		table.addPlayer("Juanito");
-		try {
-			table.addPlayer("Te tienes que caer");
-	        assert false;
-	    } catch (Exception e) {
-	        assert true;
-	    }
 	}
 }

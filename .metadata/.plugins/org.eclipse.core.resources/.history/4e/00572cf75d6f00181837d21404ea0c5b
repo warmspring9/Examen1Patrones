@@ -82,7 +82,6 @@ class Pruebas {
 		table.addPlayer("Pepito");
 		table.addPlayer("Chanchito");
 		table.addPlayer("Chinito");
-		table.addPlayer("Juanito");
 		try {
 			table.addPlayer("Te tienes que caer");
 	        assert false;
