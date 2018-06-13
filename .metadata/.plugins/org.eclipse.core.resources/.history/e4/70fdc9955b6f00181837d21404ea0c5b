@@ -7,7 +7,6 @@ import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 
 import Code.Carta;
-import Code.Jugador;
 import Code.Naipe;
 import Code.Repartidor;
 
@@ -59,15 +58,5 @@ class Pruebas {
 	public void pruebaRepartidor() throws Exception{
 		Repartidor shuffler = new Repartidor();
 		assertTrue(shuffler.isCompleted());
-	}
-	@Test
-	public void pruebaJugador() throws Exception{
-		Jugador player = new Jugador("MiguelElDelTest");
-		player.addCarta(new Carta("Quina","Escudos",10));
-		player.addCarta(new Carta("Jota","Escudos",10));
-		player.addCarta(new Carta("Ka","Escudos",10));
-		player.addCarta(new Carta("Diez","Escudos",10));
-		player.addCarta(new Carta("Quina","Gotas",10));
-		player.addCarta(new Carta("As","Flores",1));
 	}
 }
