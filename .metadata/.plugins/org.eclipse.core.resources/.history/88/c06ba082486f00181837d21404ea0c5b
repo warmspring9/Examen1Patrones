@@ -13,6 +13,7 @@ public class Carta {
 		this.palo = palo;
 		this.valor = valor;
 	}
+	@Override
 	public boolean equals(Carta card) {
 		return (card.getValue()==valor)?true:false;
 	}

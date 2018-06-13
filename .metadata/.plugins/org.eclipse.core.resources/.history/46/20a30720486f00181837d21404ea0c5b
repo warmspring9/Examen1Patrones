@@ -37,12 +37,8 @@ class Pruebas {
 	}
 	@Test
 	public void pruebaEquals() throws Exception {
-		Carta compair = new Carta("Quinta","Estrella",10);
-		card = new Carta("Ka","Escudos",10);
-		assertEquals(true,card.equals(compair));
-		compair = new Carta("Jota","Escudos",10);
-		assertEquals(true,card.equals(compair));
-		compair = new Carta("nueve","Escudos",9);
-		assertEquals(false,card.equals(compair));
+		assertEquals(true,card.equals(new Carta("Quina","Estrellas",10)));
+		assertEquals(true,card.equals(new Carta("Jota","Escudos",10)));
+		assertEquals(false,card.equals(new Carta("nueve","Escudos",9)));
 	}
 }

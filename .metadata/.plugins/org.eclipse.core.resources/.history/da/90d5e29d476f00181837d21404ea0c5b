@@ -13,10 +13,7 @@ public class Carta {
 		this.palo = palo;
 		this.valor = valor;
 	}
-	public boolean equals(Carta card) {
-		return (card.getValue()==valor)?true:false;
-	}
-	public int getValue() {
-		return valor;
+	public int caca() throws Exception {
+		throw new Exception("ds");
 	}
 }
