@@ -1,0 +1,23 @@
+package Code.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.Test;
+
+import Code.Carta;
+
+class Pruebas {
+	static Carta card;
+	
+	@BeforeClass
+	public static void init() throws Exception {
+		card = new Carta("Ka","Escudos",10);
+	}
+	
+	@Test 
+	public void test() throws Exception{
+		assertEquals(1,card.caca());
+	}
+
+}

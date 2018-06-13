@@ -1,0 +1,22 @@
+package Code.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.Test;
+
+import Code.Carta;
+
+class Pruebas {
+	static Carta card;
+	
+	@BeforeClass
+	public static void init() {
+	}
+	
+	@Test (expected=Exception.class)
+	void test() throws Exception{
+		card = new Carta('Ka','Escudos',13);
+	}
+
+}
