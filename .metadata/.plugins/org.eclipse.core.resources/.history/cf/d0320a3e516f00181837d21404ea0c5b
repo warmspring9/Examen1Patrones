@@ -1,6 +1,5 @@
 package Code.test;
 
-import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.BeforeClass;
@@ -40,16 +39,10 @@ class Pruebas {
 	public void pruebaEquals() throws Exception {
 		Carta compair = new Carta("Quinta","Estrella",10);
 		card = new Carta("Ka","Escudos",10);
-		assertTrue(card.equals(compair));
+		assertEquals(true,card.equals(compair));
 		compair = new Carta("Jota","Escudos",10);
-		assertTrue(card.equals(compair));
+		assertEquals(true,card.equals(compair));
 		compair = new Carta("nueve","Escudos",9);
-		assertFalse(card.equals(compair));
-	}
-	@Test
-	public void pruebaNaipe() throws Exception {
-		Naipe baraja = new Naipe();
-		baraja.llenar();
-		assertTrue(baraja.isCompleted());
+		assertEquals(false,card.equals(compair));
 	}
 }

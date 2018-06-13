@@ -44,10 +44,9 @@ class Pruebas {
 		compair = new Carta("Jota","Escudos",10);
 		assertTrue(card.equals(compair));
 		compair = new Carta("nueve","Escudos",9);
-		assertFalse(card.equals(compair));
+		assertTrue(card.equals(compair));
 	}
-	@Test
-	public void pruebaNaipe() throws Exception {
+	public void pruebaNaipe() {
 		Naipe baraja = new Naipe();
 		baraja.llenar();
 		assertTrue(baraja.isCompleted());
