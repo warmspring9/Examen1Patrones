@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Pruebas" project="Examen1" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="Code.test.Pruebas" time="0.008" displayname="Pruebas" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]">
-    <testcase name="pruebaExcepcion" classname="Code.test.Pruebas" time="0.003" displayname="pruebaExcepcion()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaExcepcion()]"/>
-    <testcase name="pruebaCreacion" classname="Code.test.Pruebas" time="0.005" displayname="pruebaCreacion()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaCreacion()]"/>
-  </testsuite>
-</testrun>
