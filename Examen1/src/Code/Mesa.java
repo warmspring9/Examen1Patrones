@@ -29,14 +29,32 @@ public class Mesa {
 		for(int i=0;i<players.size();i++) {
 			int suma = sumar(players.get(i));
 			if(suma>=mayor) {
-				mayor = suma;
 				if(suma!=mayor) {
 					ganadores.clear();
 				}
+				mayor = suma;
 				ganadores.add(players.get(i));
-			} 
+			}
+			if(isHalf21(players.get(i))) {
+				ganadores.clear();
+				ganadores.add(players.get(i));
+				return ganadores;
+			}
 		}
 		return ganadores;
+	}
+	public boolean isHalf21(Jugador player) {
+		int a = player.size();
+		for(int i=0;i<a;i++) {
+			if(player.getMano().get(i).getValue()==2) {
+				for(int j=0;j<a;j++) {
+					if(player.getMano().get(j).getValue()==10) {
+						return true;
+					}
+				}
+			}
+		}
+		return false;
 	}
 	public int sumar(Jugador player) {
 		int res=0;
@@ -59,6 +77,12 @@ public class Mesa {
 			}
 		}
 		return cambio;
-		
+	}
+	public ArrayList<Jugador> getJugadores(){
+		return players;
+	}
+	/*No game safe*/
+	public void addSpecCard(Carta card,int i) {
+		players.get(i).addCarta(card);
 	}
 }
