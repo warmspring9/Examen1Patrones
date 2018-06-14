@@ -161,10 +161,9 @@ class Pruebas {
 		String name = table.getComodinNombre();
 		table.agregarJugador("Juan");
 		table.agregarJugador("Pepo");
-		table.addSpecCard(new Carta(name,palo,2), 0);
+		table.addSpecCard(new Carta(name,palo,0), 0);
 		table.addSpecCard(new Carta("Dos","Escudo",2), 0);
 		table.addSpecCard(new Carta("Quina","Escudo",10), 1);
 		table.addSpecCard(new Carta("Jota","Escudo",10), 1);
-		assertEquals("Juan",table.ganadores().get(0).getNombre());
 	}
 }

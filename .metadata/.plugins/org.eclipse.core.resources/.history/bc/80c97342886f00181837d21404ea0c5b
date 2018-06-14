@@ -165,6 +165,6 @@ class Pruebas {
 		table.addSpecCard(new Carta("Dos","Escudo",2), 0);
 		table.addSpecCard(new Carta("Quina","Escudo",10), 1);
 		table.addSpecCard(new Carta("Jota","Escudo",10), 1);
-		assertEquals("Juan",table.ganadores().get(0).getNombre());
+		assertEquals("Juan",table.ganadores().get(0));
 	}
 }

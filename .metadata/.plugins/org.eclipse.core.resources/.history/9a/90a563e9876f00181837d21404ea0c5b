@@ -15,12 +15,12 @@ public class Mesa {
 		ComodinNombre = getRandomComodinNombre();
 	}
 	public String getRandomComodinPalo(){
-        int r = (int) (Math.random()*4);
+        int r = (int) (Math.random()*5);
         String name = new String [] {"Escudos","Flores","Estrellas","Gotas"}[r];
         return name;
     }
 	public String getRandomComodinNombre(){
-        int r = (int) (Math.random()*13);
+        int r = (int) (Math.random()*14);
         String name = new String [] {"Uno","Dos","Tres","Cuatro","Cinco","Seis","Siete","Ocho","Nueve","Diez","Jota","Quina","Ka"}[r];
         return name;
     }

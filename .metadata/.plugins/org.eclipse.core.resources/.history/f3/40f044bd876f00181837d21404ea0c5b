@@ -22,7 +22,4 @@ public class Carta {
 	public String getNombre() {
 		return nombre;
 	}
-	public String getPalo() {
-		return palo;
-	}
 }
