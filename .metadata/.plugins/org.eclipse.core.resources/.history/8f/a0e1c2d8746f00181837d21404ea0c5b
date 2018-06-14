@@ -125,14 +125,5 @@ class Pruebas {
 		ArrayList<Jugador> ganadores = new ArrayList<Jugador>();
 		ganadores = table.ganadores();
 	}
-	@Test
-	public void pruebaCambioMano() throws Exception {
-		Mesa table = new Mesa();
-		table.agregarJugador("Juanito");
-		table.agregarJugador("Pepito");
-		table.agregarJugador("Juan");
-		table.agregarJugador("Pepo");
-		table.EmpezarAJugar21();
-		table.verificarCambio();
-	}
+	
 }

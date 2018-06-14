@@ -45,20 +45,4 @@ public class Mesa {
 		}
 		return res;
 	}
-	public ArrayList<Jugador> verificarCambio() {
-		ArrayList<Jugador> cambio = new ArrayList<Jugador>();
-		for(int i=0;i<players.size();i++) {
-			ArrayList<String> cartas = new ArrayList<String>();
-			for(int j=0;j<players.get(i).getMano().size();j++) {
-				cartas.add(players.get(i).getMano().get(j).getNombre());
-			}
-			if(cartas.contains("Jota") || cartas.contains("Quina") || cartas.contains("Ka")) {
-				if(cartas.contains("Tres")) {
-					cambio.add(players.get(i));
-				}
-			}
-		}
-		return cambio;
-		
-	}
 }
