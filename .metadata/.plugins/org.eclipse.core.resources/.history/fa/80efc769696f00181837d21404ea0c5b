@@ -114,5 +114,4 @@ class Pruebas {
 		table.agregarJugador("Pepito");
 		table.EmpezarAJugar21();		
 	}
-	
 }

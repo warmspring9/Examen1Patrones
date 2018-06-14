@@ -16,11 +16,4 @@ public class Mesa {
 		}
 		players.add(new Jugador(nombre));
 	}
-	public void EmpezarAJugar21() throws Exception {
-		for(int i=0;i<players.size();i++) {
-			for(int j=0;j<2;j++) {
-				dealer.DarCarta(players.get(i));
-			}
-		}
-	}
 }

@@ -107,12 +107,4 @@ class Pruebas {
 	        assert true;
 	    }
 	}
-	@Test
-	public void pruebaJuego21() throws Exception {
-		Mesa table = new Mesa();
-		table.agregarJugador("Juanito");
-		table.agregarJugador("Pepito");
-		table.EmpezarAJugar21();		
-	}
-	
 }
