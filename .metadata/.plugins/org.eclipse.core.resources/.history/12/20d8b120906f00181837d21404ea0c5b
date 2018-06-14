@@ -16,13 +16,6 @@ public class Mesa {
 		ComodinNombre = getRandomComodinNombre();
 		Deck = dealer.getNaipe();
 	}
-	public void reset() throws Exception {
-		players.clear();
-		dealer = new Repartidor();
-		ComodinPalo = getRandomComodinPalo();
-		ComodinNombre = getRandomComodinNombre(); 
-		Deck = dealer.getNaipe();
-	}
 	public String getRandomComodinPalo(){
         int r = (int) (Math.random()*4);
         String name = new String [] {"Escudos","Flores","Estrellas","Gotas"}[r];
