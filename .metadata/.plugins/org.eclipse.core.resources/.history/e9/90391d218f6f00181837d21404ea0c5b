@@ -180,7 +180,6 @@ class Pruebas {
 		table.agregarJugador("Juanito");
 		table.EmpezarPartidaDeRon();
 		table.agarrarCarta(0);
-		assertEquals(7,table.getJugadores().get(0).size());
 	}
 	@Test
 	public void pruebaDeckTirarCarta() throws Exception {

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Pruebas" project="Examen1" tests="19" started="19" failures="0" errors="0" ignored="0">
+  <testsuite name="Code.test.Pruebas" time="0.033" displayname="Pruebas" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]">
+    <testcase name="pruebaNaipe" classname="Code.test.Pruebas" time="0.006" displayname="pruebaNaipe()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaNaipe()]"/>
+    <testcase name="pruebaGanador" classname="Code.test.Pruebas" time="0.008" displayname="pruebaGanador()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaGanador()]"/>
+    <testcase name="pruebaCambioMano" classname="Code.test.Pruebas" time="0.0" displayname="pruebaCambioMano()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaCambioMano()]"/>
+    <testcase name="pruebaExcepcionRepartirCarta" classname="Code.test.Pruebas" time="0.001" displayname="pruebaExcepcionRepartirCarta()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaExcepcionRepartirCarta()]"/>
+    <testcase name="pruebaDeck" classname="Code.test.Pruebas" time="0.001" displayname="pruebaDeck()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaDeck()]"/>
+    <testcase name="pruebaMesa" classname="Code.test.Pruebas" time="0.001" displayname="pruebaMesa()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaMesa()]"/>
+    <testcase name="pruebaComodin" classname="Code.test.Pruebas" time="0.001" displayname="pruebaComodin()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaComodin()]"/>
+    <testcase name="pruebaExcepcionValorMayor" classname="Code.test.Pruebas" time="0.001" displayname="pruebaExcepcionValorMayor()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaExcepcionValorMayor()]"/>
+    <testcase name="pruebaRon" classname="Code.test.Pruebas" time="0.001" displayname="pruebaRon()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaRon()]"/>
+    <testcase name="pruebaRepartirCarta" classname="Code.test.Pruebas" time="0.001" displayname="pruebaRepartirCarta()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaRepartirCarta()]"/>
+    <testcase name="pruebaExcepcionValorNegativo" classname="Code.test.Pruebas" time="0.0" displayname="pruebaExcepcionValorNegativo()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaExcepcionValorNegativo()]"/>
+    <testcase name="pruebaEquals" classname="Code.test.Pruebas" time="0.004" displayname="pruebaEquals()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaEquals()]"/>
+    <testcase name="pruebaUnoyMedio" classname="Code.test.Pruebas" time="0.001" displayname="pruebaUnoyMedio()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaUnoyMedio()]"/>
+    <testcase name="pruebaDeckTirarCarta" classname="Code.test.Pruebas" time="0.0" displayname="pruebaDeckTirarCarta()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaDeckTirarCarta()]"/>
+    <testcase name="pruebaMesaExcepcion" classname="Code.test.Pruebas" time="0.001" displayname="pruebaMesaExcepcion()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaMesaExcepcion()]"/>
+    <testcase name="pruebaRepartidor" classname="Code.test.Pruebas" time="0.001" displayname="pruebaRepartidor()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaRepartidor()]"/>
+    <testcase name="pruebaJuego21" classname="Code.test.Pruebas" time="0.0" displayname="pruebaJuego21()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaJuego21()]"/>
+    <testcase name="pruebaJugador" classname="Code.test.Pruebas" time="0.001" displayname="pruebaJugador()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaJugador()]"/>
+    <testcase name="pruebaCreacion" classname="Code.test.Pruebas" time="0.004" displayname="pruebaCreacion()" uniqueid="[engine:junit-jupiter]/[class:Code.test.Pruebas]/[method:pruebaCreacion()]"/>
+  </testsuite>
+</testrun>

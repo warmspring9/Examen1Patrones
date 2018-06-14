@@ -119,6 +119,5 @@ public class Mesa {
 	}
 	public void agarrarCarta(int pos) throws Exception {
 		players.get(pos).addCarta(Deck.deal());
-		players.get(pos).getMano().remove(0);
 	}
 }
