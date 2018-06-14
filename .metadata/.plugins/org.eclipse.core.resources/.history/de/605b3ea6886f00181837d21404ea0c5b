@@ -167,11 +167,4 @@ class Pruebas {
 		table.addSpecCard(new Carta("Jota","Escudo",10), 1);
 		assertEquals("Juan",table.ganadores().get(0).getNombre());
 	}
-	@Test
-	public void pruebaRon() throws Exception {
-		Mesa table = new Mesa();
-		table.agregarJugador("Juanito");
-		table.agregarJugador("Pepito");
-		table.EmpezarPartidaDeRon();		
-	}
 }
