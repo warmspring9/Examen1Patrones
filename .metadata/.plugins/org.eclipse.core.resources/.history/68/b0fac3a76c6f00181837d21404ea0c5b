@@ -16,10 +16,4 @@ public class Jugador {
 	public int size() {
 		return mano.size();
 	}
-	public String getNombre() {
-		return nombre;
-	}
-	public ArrayList<Carta> getMano(){
-		return mano;
-	}
 }

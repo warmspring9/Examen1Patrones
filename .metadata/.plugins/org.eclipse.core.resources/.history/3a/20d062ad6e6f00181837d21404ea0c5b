@@ -19,7 +19,4 @@ public class Jugador {
 	public String getNombre() {
 		return nombre;
 	}
-	public ArrayList<Carta> getMano(){
-		return mano;
-	}
 }

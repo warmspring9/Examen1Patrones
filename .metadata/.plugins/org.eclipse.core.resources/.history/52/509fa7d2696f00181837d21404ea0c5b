@@ -3,8 +3,6 @@ package Code.test;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.util.ArrayList;
-
 import org.junit.jupiter.api.Test;
 
 import Code.Carta;
@@ -115,15 +113,6 @@ class Pruebas {
 		table.agregarJugador("Juanito");
 		table.agregarJugador("Pepito");
 		table.EmpezarAJugar21();		
-	}
-	@Test
-	public void pruebaGanador() throws Exception {
-		Mesa table = new Mesa();
-		table.agregarJugador("Juanito");
-		table.agregarJugador("Pepito");
-		table.EmpezarAJugar21();
-		ArrayList<Jugador> ganadores = new ArrayList<Jugador>();
-		ganadores = table.ganadores();
 	}
 	
 }

@@ -24,19 +24,10 @@ public class Mesa {
 		}
 	}
 	public ArrayList<Jugador> ganadores() {
-		int mayor = 0;
-		ArrayList<Jugador> ganadores = new ArrayList<Jugador>();
 		for(int i=0;i<players.size();i++) {
-			int suma = sumar(players.get(i));
-			if(suma>=mayor) {
-				mayor = suma;
-				if(suma!=mayor) {
-					ganadores.clear();
-				}
-				ganadores.add(players.get(i));
-			} 
+			
 		}
-		return ganadores;
+		return null;
 	}
 	public int sumar(Jugador player) {
 		int res=0;
