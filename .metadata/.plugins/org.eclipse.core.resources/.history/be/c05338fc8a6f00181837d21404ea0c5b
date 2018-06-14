@@ -116,8 +116,6 @@ public class Mesa {
 				dealer.DarCarta(players.get(i));
 			}
 		}
-	}
-	public void agarrarCarta(int pos) throws Exception {
-		players.get(pos).addCarta(Deck.deal());
+		
 	}
 }

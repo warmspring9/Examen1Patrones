@@ -7,14 +7,12 @@ public class Mesa {
 	Repartidor dealer;
 	String ComodinPalo;
 	String ComodinNombre;
-	Naipe Deck;
 	
 	public Mesa() throws Exception {
 		players = new ArrayList<Jugador>();
 		dealer = new Repartidor();
 		ComodinPalo = getRandomComodinPalo();
 		ComodinNombre = getRandomComodinNombre();
-		Deck = dealer.getNaipe();
 	}
 	public String getRandomComodinPalo(){
         int r = (int) (Math.random()*4);
@@ -116,8 +114,6 @@ public class Mesa {
 				dealer.DarCarta(players.get(i));
 			}
 		}
-	}
-	public void agarrarCarta(int pos) throws Exception {
-		players.get(pos).addCarta(Deck.deal());
+		
 	}
 }

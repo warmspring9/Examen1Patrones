@@ -19,7 +19,4 @@ public class Repartidor {
 		player.addCarta(card);
 		
 	}
-	public Naipe getNaipe() {
-		return baraja;
-	}
 }

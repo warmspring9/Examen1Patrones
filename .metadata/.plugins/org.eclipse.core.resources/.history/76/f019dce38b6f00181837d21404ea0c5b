@@ -174,11 +174,4 @@ class Pruebas {
 		table.agregarJugador("Pepito");
 		table.EmpezarPartidaDeRon();		
 	}
-	@Test
-	public void pruebaDeck() throws Exception {
-		Mesa table = new Mesa();
-		table.agregarJugador("Juanito");
-		table.EmpezarPartidaDeRon();
-		table.agarrarCarta(0);
-	}
 }
