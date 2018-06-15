@@ -104,6 +104,15 @@ public class Mesa {
 		}
 		return cambio;
 	}
+	public void hacerCambio(ArrayList<Jugador> jugadores) throws Exception {
+		for(int i=0;i<jugadores.size();i++) {
+			int cont = jugadores.get(i).size();
+			for(int j=0;j<cont;j++) {
+				jugadores.get(i).dumpCard();
+				dealer.DarCarta(jugadores.get(i));
+			}
+		}
+	}
 	public ArrayList<Jugador> getJugadores(){
 		return players;
 	}

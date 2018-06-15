@@ -22,4 +22,7 @@ public class Jugador {
 	public ArrayList<Carta> getMano(){
 		return mano;
 	}
+	public void dumpCard() {
+		mano.remove(0);
+	}
 }
